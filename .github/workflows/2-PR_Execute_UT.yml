@@ -1,0 +1,16 @@
+name: PR Execute UT
+
+on:
+  pull_request:
+    paths:
+      - "src/**"
+      - "test/**"
+
+jobs:
+  execute-UT:
+    name: Execute UT
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Execute UT
+        run: dotnet test ./src
