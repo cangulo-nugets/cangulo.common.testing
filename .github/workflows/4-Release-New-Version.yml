@@ -1,0 +1,25 @@
+name: Release New Version v1
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+    paths:
+      - 'src/**'
+
+jobs:
+  release-new-version:
+    name: Releasing new version
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ACCESS_PUBLIC_REPOS }}
+      - name: Creating Release
+        uses: cangulo-actions/cangulo.nuke.releasecreator@v0.0.1
+        with:
+          releaseSettingsPath: ./cicd/releaseSettings.json
+          token: ${{ secrets.ACCESS_PUBLIC_REPOS }}

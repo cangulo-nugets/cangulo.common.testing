@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4FB65FEF-B3EE-45AE-B345-D3E75E059376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cangulo.common.testing.UT", "test\cangulo.common.testing.UT\cangulo.common.testing.UT.csproj", "{AFACB023-BE38-4D85-8F6D-36D4B6AC4CB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cangulo.common.testing.UT", "..\test\cangulo.common.testing.UT\cangulo.common.testing.UT.csproj", "{AFACB023-BE38-4D85-8F6D-36D4B6AC4CB9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94B97CB8-14EC-4116-9DCB-98CFEBF12E37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cangulo.common.testing", "src\cangulo.common.testing\cangulo.common.testing.csproj", "{744B14D7-5A0F-4F3D-84F5-08F1CB3D6DE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cangulo.common.testing", ".\cangulo.common.testing\cangulo.common.testing.csproj", "{744B14D7-5A0F-4F3D-84F5-08F1CB3D6DE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

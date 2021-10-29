@@ -11,7 +11,7 @@
     <Company></Company>
     <PackageTags>changelog;release;releases;dotnet;</PackageTags>
     <Description>      
-      Repository:  https://github.com/cangulo/cangulo.changelog
+      Repository:  https://github.com/cangulo/cangulo.common.testing
     </Description>
   </PropertyGroup>
 
